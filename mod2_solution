@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css">
+        <title>My page</title>
+        <style>
+            * {
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    box-sizing: border-box;
+}
+
+div{
+    margin-left: 60px;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+}
+
+h2{
+    float: right;
+}
+
+p{
+    clear: right;
+    padding: 10px 20px;
+}
+
+.container{
+    height: 20%;
+    width: 28%;
+    border: 1px solid black;
+    background-color: gray;
+    margin-bottom: 30px;
+    float: left;
+    margin: 20px;
+}
+
+.chicken{
+    background-color: pink;
+    border: 1px solid black;
+    width: 80px;
+    height: 25px;
+    padding: 5px 10px;
+}
+
+.beef{
+    background-color: rgb(122, 59, 59);
+    border: 1px solid black;
+    width: 80px;
+    height: 25px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.sushi{
+    background-color: rgb(121, 121, 52);
+    border: 1px solid black;
+    width: 80px;
+    height: 25px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+@media (min-width:768px) and (max-width:991px){
+    #chicken{
+        width: 40%;
+    }
+
+    #beef{
+        width: 40%;
+    }
+
+    #sushi{
+        width: 85%;
+    }
+}
+
+@media (max-width:767px) {
+    #chicken{
+        width: 85%;
+    }
+
+    #beef{
+        width: 85%;
+    }
+
+    #sushi{
+        width: 85%;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <h1>Our Menu</h1>
+        <div>
+            <section id="chicken" class="container">
+                <h2 class="chicken">Chicken</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatum ipsum sed ex, assumenda debitis dolorum, cumque, soluta incidunt nesciunt rerum dolorem cum qui doloribus quis ad repellat hic iure.</p>
+            </section>
+        
+            <section id="beef" class="container">
+                <h2 class="beef">Beef</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatum ipsum sed ex, assumenda debitis dolorum, cumque, soluta incidunt nesciunt rerum dolorem cum qui doloribus quis ad repellat hic iure.</p>
+            </section>
+
+            <section id="sushi" class="container">
+                <h2 class="sushi">Sushi</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatum ipsum sed ex, assumenda debitis dolorum, cumque, soluta incidunt nesciunt rerum dolorem cum qui doloribus quis ad repellat hic iure.</p>
+            </section>
+        </div>
+
+    </body>
+</html>
