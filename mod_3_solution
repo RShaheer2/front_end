@@ -1,2 +1,47 @@
-lknenf
-wekfnke
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css.css">
+    <title>demo</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: aliceblue;
+    width: 100vw;
+    padding: 25px;
+}
+
+h1,h2{
+    text-align: center;
+    padding: 25px;
+}
+
+.recipe{
+    margin: 10px 25vw;
+    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(179, 173, 173);
+}
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div >
+                 <p>FOOD, LLC</p>
+            </div>
+        </header>
+            <div><h1>Our Menu</h1></div>
+            <div class="recipe"><h2>Chicken</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis maxime exercitationem iusto assumenda velit, dolorem labore doloremque maiores rerum architecto facilis, fuga suscipit excepturi minima vel ad veniam quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, veniam voluptas, omnis corrupti recusandae earum veritatis id saepe deleniti ad, deserunt atque aliquid est repellat impedit magnam quaerat beatae debitis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor nihil soluta temporibus alias, ad, vel expedita magni quisquam in voluptatum obcaecati exercitationem tempore error natus sint dolores quidem qui minima? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas maxime omnis amet dolor ex ipsam! Ducimus, unde pariatur vel sed eaque reprehenderit blanditiis consectetur sint labore consequuntur necessitatibus, culpa quasi.
+            </p></div>
+        </div>
+    
+</body>
+</html>
